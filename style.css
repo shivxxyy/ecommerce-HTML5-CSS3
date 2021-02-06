@@ -1,0 +1,1336 @@
+.body-class{
+    background-color: black;
+    overflow: hidden;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+} 
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li:nth-child(1){
+    color: red;
+}
+ul li:nth-child(2){
+    color:white;
+}
+.main-title{
+    position: absolute;
+    top:-5%;
+    left:30%;
+    height: 100px;
+    width: 100px;
+    font-size:150px;
+}
+.start-button{
+    position: absolute;
+    top:55%;
+    left: 45%;
+    font-size: 45px;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 24px;
+    border-radius: 90px;
+    background-color:rgb(156, 121, 189);
+    outline: none;
+    text-decoration: none;
+}
+a.start-button:hover{
+    background-color:rgb(192, 83, 83);
+    color:white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.introduction{
+    color: white;
+    font-size: x-large  ;
+    font-style: italic;
+    position: absolute;
+    top:48%;
+    left:60%;
+    animation: animate 6s;
+}   
+@keyframes animate{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.body-class2{
+    background-color: black;
+}
+.welcome{
+    color:white;
+    position: absolute;
+    left:32%;
+    top:30%;
+    font-size: 100px;
+    color:rgb(230, 44, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    align-items: center;
+    animation:animate 2s  ;
+}
+@keyframes aniamte{
+    0%,100%{
+        color: #fff;
+        filter:blur(2px);
+    }
+    5%,95%{     
+        co4or:#111;
+        filter:blur(0px);
+    }
+}
+.select-city{
+    color:white;
+    position:absolute;
+    left: 23%;
+    top:350%;
+    font-size: 100px;
+    display:flex;
+
+}
+.content{
+    color: #fff;
+    position: absolute;
+    top:425%;
+    left:43%;
+    text-align: justify;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.intro{
+    color: white;
+    position: absolute;
+    top:55%;
+    left:20%;
+    font-weight: bold;
+    font-size: x-large;
+}
+.intro .big{
+    position: absolute;
+    left:27%;
+    font-size:70px;
+    font-weight: bold;
+    font-style: normal;
+    color:red;
+    animation: pulse 1s infinite;
+}
+@keyframes pulse{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.intro .last-line{
+    position: relative;
+    left:30%;
+}
+.cities{
+    color: #fff;
+    font-size: x-large;
+}
+.cities .delhi{
+    position: absolute;
+    top: 390%;
+    left:15%;
+}
+.cities .mumbai{
+    position: absolute;
+    top:390%;
+    left:35%;
+}
+.cities .pune{
+    position: absolute;
+    top:390%;
+    left:55%;
+}
+.cities .chennai{
+    position: absolute;
+    top:390%;
+    left:75%;
+}
+.image1{
+    position: absolute;
+    top:110%;
+    left:1.5%;
+    
+}
+#myImage1{
+    width: 200%;
+}
+.delhi-class{
+    text-decoration: none;
+    color: #fff;
+}
+.delhi-class:hover{
+    cursor: pointer;
+    color: rgb(235, 72, 72);
+}
+.mumbai-class{
+    text-decoration: none;
+    color:white;
+}
+.mumbai-class:hover{
+    cursor: pointer;
+    color: rgb(235, 72, 72);
+}
+.pune-class{
+    text-decoration: none;
+    color:white;
+}
+.pune-class:hover{
+    cursor: pointer;
+    color: rgb(235, 72, 72);
+}
+.chennai-class{
+    text-decoration: none;
+    color:white;
+}
+.chennai-class:hover{
+    cursor: pointer;
+    color: rgb(235, 72, 72);
+}
+.delhi-body{
+    background-color: black;
+}
+.header{
+    color:white;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+.delhi-market1{
+    color:white;
+    position: absolute;
+    top:100%;
+    left: 5%;
+    font-size: 35px;
+}
+.delhi-market1-image{
+    position: absolute;
+    top:26%;
+    left:3%;
+}
+#dimage1{
+    width:60%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+#dimage1-2{
+    position: absolute;
+    left:63%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+.delhi-market1-about{
+    color:white;
+    position: absolute;
+    top:120%;
+    left:24%;
+    font-size:20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dlocation1{
+    color:rgb(235, 72, 72);
+    position: absolute;
+    top:110%;
+    font-style: normal;
+}
+ .nd{
+    position: absolute;
+    top:0%;
+    left:45%;
+    color: #fff;
+}
+.dlocation1 .pmc{
+    position: absolute;
+    top:25%;
+    left:102%;
+    white-space: nowrap;
+    color:white;
+}
+.ba{
+    position: absolute;
+    white-space: nowrap;
+    top:50%;
+    left:60%;
+    color:#fff
+}
+.monday{
+    position: absolute;
+    top:75.5%;
+    left:52%;
+    color:#fff
+}
+/*market1 end*/
+.delhi-market2{
+    color:white;
+    position: absolute;
+    top:265%;
+    left:5%;
+    font-size: 35px;
+}
+.delhi-market2-image{
+    position: absolute;
+    top:190%;
+    left:3%;
+}
+#dimage2{
+    width:60%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+#dimage2-2{
+    position: absolute;
+    left:63%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+.delhi-market-about2{
+    color:white;
+    position: absolute;
+    top:280%;
+    left:23%;
+    font-size:20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dlocation2{
+    color:rgb(235, 72, 72);
+    position: absolute;
+    top:105%;
+    font-style: normal;
+}
+.cd{
+    position:absolute;
+    top:0%;
+    left:43%;
+    white-space: nowrap;
+    color: #fff;
+}
+.kbms{
+    position: absolute;
+    top:25%;
+    left:102%;
+    white-space: nowrap;
+    color:white;
+}
+.ea{
+    position: absolute;
+    white-space: nowrap;
+    top:50%;
+    left:60%;
+    color:#fff
+}
+.monday-kb{
+    position: absolute;
+    top:75.5%;
+    left:52%;
+    color:#fff
+}
+.karol-bagh-hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.karol-bagh-hover:hover{
+    color:blue;
+}
+/*delhi market2 end*/
+.delhi-market3{
+    color:white;
+    position: absolute;
+    top:450%;
+    left: 5%;
+    font-size: 35px;
+}
+.janpath-hover{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.janpath-hover:hover{
+    color:blue
+}
+.delhi-market3-image{
+    position: absolute;
+    top:367%;
+    left:3%;
+}
+#dimage3{
+    width:130%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+#dimage3-2{
+    position: absolute;
+    top:0;
+    left:138%;
+    height:380px;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+.delhi-market-about3{
+    color:white;
+    position: absolute;
+    top:468%;
+    left:23%;
+    font-size:20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dlocation3{
+    color:rgb(235, 72, 72);
+    position: absolute;
+    top:110%;
+    font-style: normal;
+}
+ .newd{
+    position: absolute;
+    top:0%;
+    left:45%;
+    color: #fff;
+}
+.rcms{
+    position: absolute;
+    top:25%;
+    left:102%;
+    white-space: nowrap;
+    color:white;
+}
+.csv{
+    position: absolute;
+    white-space: nowrap;
+    top:50%;
+    left:60%;
+    color:#fff
+}
+.sunday{
+    position: absolute;
+    top:75.5%;
+    left:52%;
+    color:#fff
+}
+.kamla-nagar-hover{
+    cursor: pointer;
+    color:red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.kamla-nagar-hover:hover{
+    color:rgb(58, 58, 228);
+}
+.kamla-nagar-body{
+    background-color: #111;
+}
+.kamla-nagar-shops{
+    font-size: xx-large;
+    width: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 20px;
+    height:50px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:-3.9%;
+    left: -2.2%;
+    background-color:rgb(198, 130, 238);
+    color:black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.g8teen-title{
+    color:#fff;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:120%;
+    left:4%;
+    z-index: 1;
+}
+.g8teen-about{
+    color: #fff;
+    position: absolute;
+    top:145%;
+    left:33%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.g8teen-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.g8teen-image{
+    position: absolute;
+    top:20%;
+    left:3%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+#g8teen-image1{
+    position: absolute;
+    top:20%;
+    left:50%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+.g8teen-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.g8teen-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+/*g8teen start*/
+.g8teen-body{
+    background-color: #111;
+}
+.g8teen-heading{
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(230, 44, 44);
+    animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.g8teen-image1{
+    position:absolute;
+    top:23%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.g8teen-about1{
+    color:white;
+    position: absolute;
+    top:25%;
+    left:25%;
+    font-size:23px;
+}
+.g8teen-about1 #ratings1{
+    position: absolute;
+    top:120%;
+}
+.g8teen-about1 #price1{
+    position: absolute;
+    top:250%;
+}
+.g8teen-about1 #delivery1{
+    position: absolute;
+    top:380%;
+}
+.buy-button1{
+    color:white;
+    position: absolute;
+    top:53%;
+    left:30%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.g8teen-image2{
+    position:absolute;
+    top:83%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.g8teen-about2{
+    color:white;
+    position: absolute;
+    top:85%;
+    left:28%;
+    font-size:23px;
+}
+.g8teen-about2 #ratings2{
+    position: absolute;
+    top:120%;
+}
+.g8teen-about2 #price2{
+    position: absolute;
+    top:250%;
+}
+.g8teen-about2 #delivery2{
+    position: absolute;
+    top:380%;
+}
+.buy-button2{
+    color:white;
+    position: absolute;
+    top:113%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.g8teen-image3{
+    position:absolute;
+    top:140%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.g8teen-about3{
+    color:white;
+    position: absolute;
+    top:145%;
+    left:20%;
+    font-size:23px;
+}
+.g8teen-about3 #ratings3{
+    position: absolute;
+    top:125%;
+}
+.g8teen-about3 #price3{
+    position: absolute;
+    top:260%;
+}
+.g8teen-about3 #delivery3{
+    position: absolute;
+    top:390%;
+}
+.buy-button3{
+    color:white;
+    position: absolute;
+    top:173%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*g8teen end*/
+.indifusion-title{
+    color:rgb(198, 130, 238);
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:300%;
+    left:4%;
+    z-index: 1;
+}
+.indifusion-about{
+    color: white;
+    position: absolute;
+    top:333%;
+    left:33%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.indifusion-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.indifusion-image{
+    position: absolute;
+    top:200%;
+    left:50%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;  
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;    
+}
+#indifusion-image2{
+    position: absolute;
+    top:200%;
+    left:3%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+.indifusion-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.indifusion-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+/*indifusion starts*/
+.indifusion-body{
+    background-color: #111;
+}
+.indifusion-heading{
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(230, 44, 44);
+    animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.indifusion-image1{
+    position:absolute;
+    top:23%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.indifusion-about1{
+    color:white;
+    position: absolute;
+    top:25%;
+    left:25%;
+    font-size:23px;
+}
+.indifusion-about1 #ratings1{
+    position: absolute;
+    top:120%;
+}
+.indifusion-about1 #price1{
+    position: absolute;
+    top:250%;
+}
+.indifusion-about1 #delivery1{
+    position: absolute;
+    top:380%;
+}
+.buy-button1{
+    color:white;
+    position: absolute;
+    top:53%;
+    left:30%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.indifusion-image2{
+    position:absolute;
+    top:83%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.indifusion-about2{
+    color:white;
+    position: absolute;
+    top:85%;
+    left:28%;
+    font-size:23px;
+}
+.indifusion-about2 #ratings2{
+    position: absolute;
+    top:120%;
+}
+.indifusion-about2 #price2{
+    position: absolute;
+    top:250%;
+}
+.indifusion-about2 #delivery2{
+    position: absolute;
+    top:380%;
+}
+.buy-button2{
+    color:white;
+    position: absolute;
+    top:113%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.indifusion-image3{
+    position:absolute;
+    top:140%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.indifusion-about3{
+    color:white;
+    position: absolute;
+    top:145%;
+    left:20%;
+    font-size:23px;
+}
+.indifusion-about3 #ratings3{
+    position: absolute;
+    top:125%;
+}
+.indifusion-about3 #price3{
+    position: absolute;
+    top:260%;
+}
+.indifusion-about3 #delivery3{
+    position: absolute;
+    top:390%;
+}
+.buy-button3{
+    color:white;
+    position: absolute;
+    top:173%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*indifusion ends*/
+.fashiongarage-title{
+    color:rgb(198, 130, 238);
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:500%;
+    left:4%;
+    z-index: 1;
+}
+.fashiongarage-about{
+    color: white;
+    position: absolute;
+    top:533%;
+    left:33%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.fashiongarage-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.fashiongarage-image{
+    position: absolute;
+    top:400%;
+    left:3%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border:5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+#fashiongarage-image1{
+    position: absolute;
+    top:400%;
+    left:50%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+.fashiongarage-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.fashiongarage-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+/*fashiongarage starts*/
+.fashiongarage-body{
+    background-color: #111;
+}
+.fashiongarage-heading{
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(230, 44, 44);
+    animation: change 5s infinite;
+}
+@keyframes change{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.fashiongarage-image1{
+    position:absolute;
+    top:23%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.fashiongarage-about1{
+    color:white;
+    position: absolute;
+    top:25%;
+    left:25%;
+    font-size:23px;
+}
+.fashiongarage-about1 #ratings1{
+    position: absolute;
+    top:120%;
+}
+.fashiongarage-about1 #price1{
+    position: absolute;
+    top:250%;
+}
+.fashiongarage-about1 #delivery1{
+    position: absolute;
+    top:380%;
+}
+.buy-button1{
+    color:white;
+    position: absolute;
+    top:53%;
+    left:30%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fashiongarage-image2{
+    position:absolute;
+    top:83%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.fashiongarage-about2{
+    color:white;
+    position: absolute;
+    top:85%;
+    left:28%;
+    font-size:23px;
+}
+.fashiongarage-about2 #ratings2{
+    position: absolute;
+    top:120%;
+}
+.fashiongarage-about2 #price2{
+    position: absolute;
+    top:250%;
+}
+.fashiongarage-about2 #delivery2{
+    position: absolute;
+    top:380%;
+}
+.buy-button2{
+    color:white;
+    position: absolute;
+    top:113%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+.fashiongarage-image3{
+    position:absolute;
+    top:140%;
+    left:1.5%;
+    height:35%;
+    border: 5px solid rgb(198, 130, 238);
+    border-radius:20px 20px 20px 20px;
+}
+.fashiongarage-about3{
+    color:white;
+    position: absolute;
+    top:145%;
+    left:20%;
+    font-size:23px;
+}
+.fashiongarage-about3 #ratings3{
+    position: absolute;
+    top:125%;
+}
+.fashiongarage-about3 #price3{
+    position: absolute;
+    top:260%;
+}
+.fashiongarage-about3 #delivery3{
+    position: absolute;
+    top:390%;
+}
+.buy-button3{
+    color:white;
+    position: absolute;
+    top:173%;
+    left:33%;
+    text-decoration: none;
+    font-size:25px;
+    box-sizing: border-box;
+    width: 10%;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(198, 130, 238);
+    color:#111;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*fashiongarage ends*/
+/*kamla nagar ends here*/
+.karol-bagh-body{
+    background-color: #111;
+}
+.karol-bagh-shops{
+    font-size: xx-large;
+    width: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 20px;
+    height:50px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:-3.9%;
+    left: -2.2%;
+    background-color:rgb(198, 130, 238);
+    color:black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.kala-shree-title{
+    color:#fff;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:120%;
+    left:4%;
+    z-index: 1;
+}
+.kala-shree-about{
+    color: #fff;
+    position: absolute;
+    top:145%;
+    left:32%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.kala-shree-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.kala-shree-image{
+    position: absolute;
+    top:20%;
+    left:-1%;
+    z-index: 0;
+    width: 102%;
+    height: 80%;   
+}
+.kala-shree-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.kala-shree-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+.puri-emporium-title{
+    color:rgb(198, 130, 238);
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:300%;
+    left:4%;
+    z-index: 1;
+}
+.puri-emporium-about{
+    color: white;
+    position: absolute;
+    top:333%;
+    left:32%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.puri-emporium-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.puri-emporium-image{
+    position: absolute;
+    top:200%;
+    left:5%;
+    z-index: 0;
+    width:40%;
+    height: 80%;
+    border:5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;  
+}
+#puri-image1{
+    position: absolute;
+    top:200%;
+    left:48%;
+    z-index: 0;
+    width:40%;
+    height: 80%;
+    border:5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;  
+}
+.puri-emporium-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.puri-emporium-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+.janpath-body{
+    background-color: #111;
+}
+.janpath-shops{
+    font-size: xx-large;
+    width: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 20px;
+    height:50px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:-3.9%;
+    left: -2.2%;
+    background-color:rgb(198, 130, 238);
+    color:black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.street-market-title{
+    color:#fff;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:120%;
+    left:4%;
+    z-index: 1;
+}
+.street-market-about{
+    color: #fff;
+    position: absolute;
+    top:145%;
+    left:33%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.street-market-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.street-market-image{
+    position: absolute;
+    top:20%;
+    left:3%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;
+    border:5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;   
+}
+.street-market-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.street-market-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+.gujrati-market-title{
+    color:rgb(198, 130, 238);
+    font-size: xx-large;
+    font-weight: bolder;
+    position: absolute;
+    top:300%;
+    left:4%;
+    z-index: 1;
+}
+.gujrati-market-about{
+    color: white;
+    position: absolute;
+    top:333%;
+    left:33%;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: larger;
+}
+.gujrati-market-contact{
+    color:rgb(198, 130, 238);
+    z-index: 1;
+}
+.gujrati-market-image{
+    position: absolute;
+    top:200%;
+    left:3%;
+    z-index: 0;
+    width: 45%;
+    height: 80%;   
+    border: 5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;
+}
+#gujrati-image1{
+    position: absolute;
+    top:200%;
+    left:50%;
+    z-index: 0;
+    width:45%;
+    height: 80%;
+    border:5px solid rgb(198, 130, 238);
+    border-radius: 20px 20px 20px 20px;  
+}
+.gujrati-market-hover{
+    text-decoration: none;
+    color:rgb(198, 130, 238);
+    font-size: 100px;
+}
+.gujrati-market-hover:hover{
+    color:rgb(235, 72, 72);
+    text-decoration: none;
+}
+/*mumbai*/
+.mlocation1{
+    color:rgb(230, 44, 44);
+}
+.sb{
+    color:white;
+    white-space: nowrap;
+    position: absolute;
+    top:42.5%;
+    left:14%;
+}
+.Mmonday{
+    color:white;
+    position: absolute;
+    top:85.5%;
+    left:16%;
+}
+.bac{
+    color:white;
+    position: absolute;
+    top:71.8%;
+    left:19%;
+}
+.cgs{
+    color:white;
+    position: absolute;
+    top:57%;
+    left:23%;
+}
+.sb3{
+    color: #fff;
+    position: absolute;
+    top:0%;
+    left:42.5%;
+    white-space: nowrap;
+}
